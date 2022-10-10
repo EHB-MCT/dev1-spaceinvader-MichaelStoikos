@@ -11,7 +11,12 @@ drawInvader();
 function drawInvader() {
 
     context.beginPath();
-    context.fillStyle = '#d2956e';
+    context.fillStyle = 'black';
+    context.rect(30,20,415,400);
+    context.fill();
+
+    context.beginPath();
+    context.fillStyle = 'chartreuse';
     context.rect(50,200,75,200);
     context.rect(125,115,75,150);
     context.rect(200,40,75,150);
